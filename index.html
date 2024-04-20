@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="major project.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity:1">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png">
+                        <a href="#">   Your Library</a>
+
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">we'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="backward_icon.png">
+                    <img src="forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin:0.5rem"></i>Install App</button>
+                    <i class="nav-item fa-regular fa-user"></i>
+                </div>
+            </div>
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                </div>
+
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="card2img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card3img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card4img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card3img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card4img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="card5img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card6img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="card1img.jpeg" class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks...</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-display">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/d/d9/Jungkook_-_Golden.png">
+                </div>
+                <div class="jungkook">
+                    <p id="me">Golden</p>
+                    <p>Jungkook</p>
+                </div>
+                <div class="ab">
+                    <i class="fa-regular fa-heart"></i>
+                    <img id="he" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX///8AAAClpaXc3Nz8/Pw5OTk1NTXu7u7g4OCEhISurq6pqanq6ur5+fnKysokJCSOjo6YmJjz8/PX19dubm5DQ0PR0dFQUFBoaGgXFxcuLi6/v7/T09Nzc3O4uLhHR0daWloSEhJ8fHwoKCgcHBxpaWmUlJSAgIBMTEzWESIPAAAGaElEQVR4nO2d22LaMAxAQ4ASAqTcy6BQAt3a///CjVIgFymOXUsKTOdxMKKDUjskkh0EiqIoiqIoiqIoiqIoiqKQM42S3SBsNoN4N+s52UXhKm3dC+l8EFnq9Y/SQVvz3q8vuVlIR+vI26aWX3J/6bvRXRr9hi/SQf6QvWHYmUgH6IFBhd/oTTo6L+w76Bn6Szo2TxyRM3UmHZhHwIljKR2VV9qPncETw6JgTzoi36SjguFaOiLvLPKCW+l4COhnBTfS0ZCQuYIbScdCw6+b4Yd0LERMrtcy0pGQMf02nEsHQkb/0VPYap0nxbF0GISEX4bSUVCyPgkmVW8I29Og2UzbYdX12OlHxgF99ZhIh1+T5Bl1OE0Y79iLv6UDt2CFSSwqRtIP6aitQC+sR+gl6Yt0zJZg93hfgz/IK27PAuTAzsUYS+9YOmJrkBGzj2X33lIYBBEs8juA7yB2peN1AJ4yFsgVzUE6XAfgGeMZMQylw3UAvr5OH8gwhFXU8I5QQzVsPmqohs1HDdUwRxTXKarbWdaa/RCPhmH9mo0x481Ib4ZV91cBdndnOLATLDyKvQPDna0gn6IfQ6fnVPVqIhtiuHcxTO/IsO0iyDXaeDF0fNTIc//ci2HXzbB1P4aOgnCp4EMZApWCanhnhixPQUQNOQRFDXmu2yQNS/W6j2bI9CBL0JBHUNCQ5xyVM3xme14uZMhY8SBhuIqLLQEPYvjJqJWBM4ddtHmMEtaz9ElCkffvUCKLzCONQBa5x1L+LLLPFk+8fhLzIXcWBWZ85vI/iWsa3uFG5LqU9USVufLmzKLQbwvGLMZgAJb1pfaGjFl8BY+/ov+Nz5ZFuBM2ZLiLwTb1g32UQx+GE8OCIVxZhKr151jQVoaD4MmgyGMY9MuHnnoxDI0PFrmGm1IYSVXQVoYdgyLTidop9MfsKoO2MgxMJypXFrO9Qce2KWgrw4ZkMYgujVzr2By0lWHQaUgWg9EyDgeb241oD4bfS081JYv1graqxbi0CxuzyCaVw8oQmHBat7UZGppFK0Pw4jZTD2TK4gL+WFqsDMF+zNxCfoYsspViZrAzBNbL2ufeYDpRuR4mZrAzBCrbio+Xqk/ULbEOgKVhqaG4VNBlyCKpDIitYX7xyC5QqV493MzoVBCsDYPo2nB7jME3VGYR/i+U2BsGQS8+rFbzySv2elUWDZ0co6jtDjyMOcVhoiKLFauLziZORdZZ3rdxqTKCxLAii1hZe2eCL8Fix1uh6JrGEJ/64TOpgy3P4USa+xqpDJETdQ2+OUl9Cv5jnxnjqQyRqR8cSinW4rqlkc4QyuIReuOPxxeQ64J7dIbQcAOVQ7s2AJi4lGMRGpazCLWWfBIJXiUoDYsnILR2GPyj2g8Jg2EQp9fPXEFVipbdjJaMGAz/ORxOU/lLCE+EtEuIb1kMK/E60QPMpA07xIKtvbQh/UYFkbChr4ttnLGsIcM68O+yhhy7aUSihhz7ocSihgyCrQ9JwymH4YukIbLSoV9E19xz7H23Q3TNPcRw43ZDMULuFDTQ0LXxG1mTpIGGrm3RDVxFSQ0tUUM1JEANLVFDNSRADS1RQzUkQA0tUUM1JEANLVHD/81wYv7An8NkmIL/zFKszGQIFxGyNH8wGSIlVxw19UyGyD6yHCtYMRki/86xXCWTIVaUxLD2L5Mh+piSfv9DJkN8V3XyPSy5DPEC3fXS/LE/gcsQXk7izBPpXrKIoetEBa/8cWpDSisUvfE5KQfO8pT7ZMhRt3OiVF/KUqlw2kK+x3GgLwo1wiwH/mpbRXea9U6tbha/bNm+yzP5cRLb4dYn59+BlNXkefItMxy7up9nPPJS3Ru583TJcMDvBnnaivks+R+e9MdbXQ7FN9jkpkX6P4/b8F21x7xXco1z5GPckfFYF/I9pNTnTvb7ZKi5/iJ/n5L4i33LHYxjYGuVGhCxWwx+KBQB8mSx2ABO17oG3NcepoRHu1BcwGVE1/kE3PQdGZaWIzmq00ZnddiXBQOGX1LAz9shTRZX5SOdD0f5d4HchiU5dSpu+G4Im5GwNYb8N+lB7ao3dlS9x5/oOlGR30MejHsytPsUiaxcQinx17M+rne/vj1Zpd6OeeJgqsHvhT4k51b7SU6jZDeosy+ukXhZbyGzKIndDzjYzdi2fFEURVEURVEURVEURVGU/4+/hBJ04XscbK8AAAAASUVORK5CYII=">
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="player_icon1.png" class="player-control-icon">
+                    <img src="player_icon2.png" class="player-control-icon">
+                    <img src="player_icon3.png" class="player-control-icon" style="opacity:1;height:1.5rem">
+                    <img src="player_icon4.png" class="player-control-icon">
+                    <img src="player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="ic-controls">
+                    <img src="i12.png" class="ri">
+                    <img src="i23.png" class="ri">
+                    <img src="i32.png" class="ri">
+                    <img src="i42.png" class="ri">
+                    <input class="sound" type="range" min="0" max="100" step="1">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>   
